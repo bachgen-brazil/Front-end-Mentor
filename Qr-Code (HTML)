@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300&display=swap" rel="stylesheet">
+    <title>Frontend Mentor | QR code component</title>
+
+  </head>
+
+    <body>
+      <div class="fundo">
+        <div class="card">
+          <div class="qr-code">
+            <img src="images/image-qr-code.png">
+          </div>
+          <div class="texto1">
+            <h3>Improve your fron-end</h3>
+            <h3>skill by building projects</h3>
+          </div>
+          <div class="texto2">
+            <p> Scan the Qr code to vist Frontend </p>
+            <p> Mentor and take your conding skills to </p>
+            <p> the next level </p>
+      
+          </div>
+        </div>
+      </div>
+    </body>
+    <footer>
+      <div class="attribution">
+          Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+          Coded by <a href="#">@bachgen_br</a>.
+      </div>
+  </footer>
+
+</html>
