@@ -1,0 +1,109 @@
+*{
+    font-family: 'Fraunces', serif;
+}
+
+body{
+    background-color: hsl(30, 38%, 92%);
+    font-size: 14px;
+    align-items: center;
+}
+
+.container{
+    align-content: center;
+    margin-left: 550px;
+    margin-top: 200px;
+}
+
+.cartao{
+    display: flex;
+    border-right: 2%;
+    column-gap: -2px;
+    text-align: center;
+}
+
+.texto{
+    width: 300px;
+    height: 460px;
+    border-bottom-right-radius: 2%;
+    border-top-right-radius: 2%;
+    background-color: hsl(0, 0%, 100%);
+}
+
+h1{
+    white-space: nowrap;
+    line-height: 0.4;
+    font-weight: bold;
+}
+
+.head{
+    margin-top: 40px;
+    line-height: 0.2;
+    letter-spacing: 0.1px;
+    font-weight: bold;
+}
+
+.tp{
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+h3{
+    line-height: 1.2;
+    letter-spacing: 4px;
+}
+
+p{
+    line-height: 1.2;
+    letter-spacing: 6px;
+    text-align: left;
+    margin-left: 30px;
+}
+
+.text{
+    line-height: 0.6;
+    letter-spacing: 1px;
+    white-space: nowrap;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 30px;
+}
+
+#final{
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 31px;
+    color: hsl(158, 36%, 37%);
+    letter-spacing: 1px;
+    white-space: nowrap;
+}
+
+em{
+    line-height: 1.2;
+    letter-spacing: 1px;
+    font-size: 12px;
+    text-decoration-line: line-through;
+    vertical-align: super;
+
+}
+
+.attribution{
+    display: flex;
+    align-items: middle;
+    margin-block-start: 20%;
+    padding-left: 680px;
+}
+
+button{
+    width: 250px;
+    height: 35px;
+    color: hsl(0, 0%, 100%);
+    border-color:transparent ;
+    background-color:hsl(158, 36%, 37%);
+    border-radius: 4px;
+    margin-top: 15px;
+}
+
+:hover button{
+    cursor: pointer;
+}
