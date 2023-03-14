@@ -1,39 +1,4 @@
-/*# Front-end Style Guide
 
-## Layout
-
-The designs were created to the following widths:
-
-- Mobile: 375px
-- Desktop: 1440px
-
-## Colors
-
-### Primary
-
-- Orange: hsl(25, 97%, 53%)
-
-### Neutral
-
-- White: hsl(0, 0%, 100%)
-- Light Grey: hsl(217, 12%, 63%)
-- Medium Grey: hsl(216, 12%, 54%)
-- Dark Blue: hsl(213, 19%, 18%)
-- Very Dark Blue: hsl(216, 12%, 8%)
-
-## Typography
-
-### Body Copy
-
-- Font size (paragraph): 15px
-
-### Font
-
-- Family: [Overpass](https://fonts.google.com/specimen/Overpass)
-- Weights: 400, 700
-*/
-
-/*Start - General Settings*/
 *{
     margin: 0;
     padding: 0;
@@ -47,9 +12,10 @@ span{
     position: relative;
     background-color: rgba(84, 84, 85, 0);
     color: hsl(217, 12%, 63%);
-    top: 17px;
-    left: 22px;
     font-weight: 700;
+}
+form{
+    height: 0;
 }
 
 /* Style Box*/
@@ -80,6 +46,22 @@ img{
     left: 25px;
     top: 25px;
 }
+#back2{
+    position: relative;
+    background-color: rgba(126, 125, 125, 0.11);
+    border-radius: 20px;
+    width: 180px;
+    height: 30px;
+    left: 95px;
+    top: 58px;
+}
+#rate{
+    position: relative;
+    background-color: rgba(240, 248, 255, 0);
+    color: hsl(25, 97%, 53%);
+    top:35px;
+    left: 115px;
+}
 #header{
     position: relative;
     background-color: rgba(240, 255, 255, 0);
@@ -90,6 +72,17 @@ img{
     left: 25px;
     top: 35px;
 }
+#header2{
+    position: relative;
+    text-align: center;
+    background-color: rgba(240, 255, 255, 0);
+    color:hsl(0, 0%, 100%);
+    font-family: 'Overpass';
+    font-weight: 600;
+    font-size: 22px;
+    top: 75px;
+    right: 10px;
+}
 #description{
     position: relative;
     background-color: rgba(240, 255, 255, 0);
@@ -99,6 +92,15 @@ img{
     left: 25px;
     top: 56px;
 }
+#description2{
+    position: relative;
+    background-color: rgba(240, 255, 255, 0);
+    color: hsl(217, 12%, 63%);
+    font-size: 10px;
+    text-align: center;
+    line-height: 23px;
+    top: 96px;
+}
 #note{
     flex-direction: row;
     display: flex;
@@ -107,24 +109,28 @@ img{
     left: 25px;
     top: 90px;
 }
-
-#back1{
+/*Buttons to Notes*/
+#back1{ 
     position: relative;
     background-color: rgba(126, 125, 125, 0.11);
     border-radius: 50%;
     width: 50px;
     height: 50px;
     margin-left: 15px;
+    border-width: 0;
 }
+/*Buttons to Notes*/
 #back1:hover{
     background-color:hsl(25, 97%, 53%);
     cursor: pointer;
 }
+/*Submit Button*/
 #back-bt:hover{
     color:hsl(25, 97%, 53%);
     background-color: white;
     cursor: pointer;
 }
+/*Submit Button*/
 #back-bt{
     position: relative;
     background-color:hsl(25, 97%, 53%);
@@ -132,16 +138,17 @@ img{
     border-radius: 20px;
     width: 310px;
     height: 45px;
-    margin-left: auto;
-    margin-right: auto;
-    top: 120px;
     text-align: center;
     line-height: 45px;
+    border-width: 0;
+    margin-left: 40px;
+    top: 119px;
 }
-
 /*Author*/
 .attribution{
+    position: relative;
     font-size: 11px; text-align: center; 
     color: hsl(228, 45%, 44%); 
-
-    }
+    top:175px;
+    background-color: rgba(240, 248, 255, 0);
+}
